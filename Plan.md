@@ -83,7 +83,7 @@
 - [x] Layout (AppLayout, Navbar, Sidebar – responsive)
 - [x] Common components
 - [x] Login & Register pages
-- [ ] Dashboard page + widgets
+- [x] Dashboard page + widgets
 - [ ] Projects list / detail + members management
 - [ ] Task board (Kanban), task form, task detail, comments
 - [ ] My Tasks page, Admin Users page, 404 page
