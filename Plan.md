@@ -73,11 +73,11 @@
 - [x] All backend tests passing (`mvn test`)
 
 ### Phase 6 – Frontend Foundation
-- [ ] `package.json`, `tsconfig.json`, `vite.config.ts`, Tailwind/PostCSS, `index.html`
-- [ ] `types/index.ts`
-- [ ] `api/client.ts` + resource API modules
-- [ ] `AuthContext`, `ProtectedRoute`, `RoleGuard`, `usePermissions`
-- [ ] `validation/schemas.ts`, `utils/errors.ts`
+- [x] `package.json`, `tsconfig.json`, `vite.config.ts`, Tailwind/PostCSS, `index.html`
+- [x] `types/index.ts`
+- [x] `api/client.ts` + resource API modules
+- [x] `AuthContext`, `ProtectedRoute`, `RoleGuard`, `usePermissions`
+- [x] `validation/schemas.ts`, `utils/errors.ts`
 
 ### Phase 7 – Frontend UI
 - [ ] Layout (AppLayout, Navbar, Sidebar – responsive)
