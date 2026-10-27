@@ -57,7 +57,7 @@
 - [x] `AdminSeeder` (first admin from env vars)
 
 ### Phase 4 – Backend Features
-- [ ] DTOs with Bean Validation + `DtoMapper`
+- [x] DTOs with Bean Validation + `DtoMapper`
 - [ ] Exceptions + `GlobalExceptionHandler` + `ApiError`
 - [ ] `AuthService` / `AuthController` (register, login, me)
 - [ ] `UserService` / `UserController` (admin role management)
