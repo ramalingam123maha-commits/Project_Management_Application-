@@ -47,7 +47,7 @@
 - [x] `pom.xml` dependencies
 - [x] `application.yml` (env-driven config)
 - [x] `V1__init.sql` Flyway schema
-- [ ] Entities & enums (`domain/`)
+- [x] Entities & enums (`domain/`)
 - [ ] Repositories (`repository/`)
 
 ### Phase 3 – Backend Security
