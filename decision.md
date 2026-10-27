@@ -55,3 +55,4 @@ Format: **ID – Title** · Status · Decision · Reason · Alternatives conside
 | D-048 | Container user | Accepted | Backend container runs as a non-root user | Limits damage if the app is compromised | Run as root |
 | D-049 | Secrets in compose | Accepted | No default values for DB passwords, JWT secret or initial admin password; compose fails with a message if they are unset | A deployment can never start with a published default credential | Defaults in the file for convenience |
 | D-050 | Exposed ports | Accepted | Only the frontend port is published; MySQL and the backend are reachable only inside the compose network | Smaller attack surface | Publishing 3306 and 8080 |
+| D-051 | Readme honesty about Docker | Accepted | The Readme says the Docker setup is untested | It was written without Docker available; readers should know | Leave the claim out |
