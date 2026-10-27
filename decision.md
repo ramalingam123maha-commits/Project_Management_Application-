@@ -51,3 +51,5 @@ Format: **ID – Title** · Status · Decision · Reason · Alternatives conside
 | D-044 | Comment rendering | Accepted | Comment text is rendered as plain text with line breaks preserved, never as HTML | Prevents stored XSS from comment content | Markdown / rich text |
 | D-045 | Own role in the Users table | Accepted | The Admin's own role dropdown is disabled | Matches the backend rule (D-028) and avoids a pointless error | Allow and show the server error |
 | D-046 | Frontend test approach | Accepted | Tests mock `useAuth` and render real components with Testing Library; no network or backend | Fast, deterministic, tests what the user sees | Mock Service Worker, end-to-end browser tests |
+| D-047 | Frontend to backend in Docker | Accepted | The frontend image is built with an empty `VITE_API_URL`, so the browser calls `/api` on its own origin and nginx proxies to the backend | No CORS needed in the container setup; one public port | Hard-coding a backend URL at build time |
+| D-048 | Container user | Accepted | Backend container runs as a non-root user | Limits damage if the app is compromised | Run as root |

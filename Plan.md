@@ -93,7 +93,7 @@
 - [x] Type check & build passing (`tsc`, `vite build`)
 
 ### Phase 9 – DevOps & Docs
-- [ ] Backend & frontend Dockerfiles, `nginx.conf`
+- [x] Backend & frontend Dockerfiles, `nginx.conf`
 - [ ] `docker-compose.yml`, `.env.example`, `.gitignore`
 - [ ] `Readme.md` – setup, env vars, run, test, API, roles
 - [ ] Final end-to-end verification
