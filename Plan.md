@@ -60,7 +60,7 @@
 - [x] DTOs with Bean Validation + `DtoMapper`
 - [ ] Exceptions + `GlobalExceptionHandler` + `ApiError`
 - [x] `AuthService` / `AuthController` (register, login, me)
-- [ ] `UserService` / `UserController` (admin role management)
+- [x] `UserService` / `UserController` (admin role management)
 - [ ] `ProjectService` / `ProjectController` (CRUD + members)
 - [ ] `TaskService` / `TaskController` (CRUD, assign, status)
 - [ ] `CommentService` (task comments)
