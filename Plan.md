@@ -89,8 +89,8 @@
 - [x] My Tasks page, Admin Users page, 404 page
 
 ### Phase 8 – Frontend Tests
-- [ ] LoginPage, ProtectedRoute, TaskBoard tests
-- [ ] Type check & build passing (`tsc`, `vite build`)
+- [x] LoginPage, ProtectedRoute, TaskBoard tests
+- [x] Type check & build passing (`tsc`, `vite build`)
 
 ### Phase 9 – DevOps & Docs
 - [ ] Backend & frontend Dockerfiles, `nginx.conf`

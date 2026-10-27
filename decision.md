@@ -50,3 +50,4 @@ Format: **ID – Title** · Status · Decision · Reason · Alternatives conside
 | D-043 | Task board interaction | Accepted | Status is changed with a dropdown on each card and on the task page, not by drag and drop | Works with keyboard, screen readers and touch without extra libraries | Drag-and-drop library |
 | D-044 | Comment rendering | Accepted | Comment text is rendered as plain text with line breaks preserved, never as HTML | Prevents stored XSS from comment content | Markdown / rich text |
 | D-045 | Own role in the Users table | Accepted | The Admin's own role dropdown is disabled | Matches the backend rule (D-028) and avoids a pointless error | Allow and show the server error |
+| D-046 | Frontend test approach | Accepted | Tests mock `useAuth` and render real components with Testing Library; no network or backend | Fast, deterministic, tests what the user sees | Mock Service Worker, end-to-end browser tests |
