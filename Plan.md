@@ -51,10 +51,10 @@
 - [x] Repositories (`repository/`)
 
 ### Phase 3 – Backend Security
-- [ ] `JwtService`, `JwtAuthenticationFilter`, `UserPrincipal`, `CustomUserDetailsService`
-- [ ] `RestAuthEntryPoint` (JSON 401)
-- [ ] `SecurityConfig` (stateless, CORS, BCrypt, route rules)
-- [ ] `AdminSeeder` (first admin from env vars)
+- [x] `JwtService`, `JwtAuthenticationFilter`, `UserPrincipal`, `CustomUserDetailsService`
+- [x] `RestAuthEntryPoint` (JSON 401)
+- [x] `SecurityConfig` (stateless, CORS, BCrypt, route rules)
+- [x] `AdminSeeder` (first admin from env vars)
 
 ### Phase 4 – Backend Features
 - [ ] DTOs with Bean Validation + `DtoMapper`
