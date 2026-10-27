@@ -48,7 +48,7 @@
 - [x] `application.yml` (env-driven config)
 - [x] `V1__init.sql` Flyway schema
 - [x] Entities & enums (`domain/`)
-- [ ] Repositories (`repository/`)
+- [x] Repositories (`repository/`)
 
 ### Phase 3 – Backend Security
 - [ ] `JwtService`, `JwtAuthenticationFilter`, `UserPrincipal`, `CustomUserDetailsService`
