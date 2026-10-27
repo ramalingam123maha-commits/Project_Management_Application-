@@ -80,9 +80,9 @@
 - [x] `validation/schemas.ts`, `utils/errors.ts`
 
 ### Phase 7 – Frontend UI
-- [ ] Layout (AppLayout, Navbar, Sidebar – responsive)
-- [ ] Common components
-- [ ] Login & Register pages
+- [x] Layout (AppLayout, Navbar, Sidebar – responsive)
+- [x] Common components
+- [x] Login & Register pages
 - [ ] Dashboard page + widgets
 - [ ] Projects list / detail + members management
 - [ ] Task board (Kanban), task form, task detail, comments
