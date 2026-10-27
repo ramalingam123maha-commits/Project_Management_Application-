@@ -61,7 +61,7 @@
 - [ ] Exceptions + `GlobalExceptionHandler` + `ApiError`
 - [x] `AuthService` / `AuthController` (register, login, me)
 - [x] `UserService` / `UserController` (admin role management)
-- [ ] `ProjectService` / `ProjectController` (CRUD + members)
+- [x] `ProjectService` / `ProjectController` (CRUD + members)
 - [ ] `TaskService` / `TaskController` (CRUD, assign, status)
 - [ ] `CommentService` (task comments)
 - [ ] `DashboardService` / `DashboardController` (role-scoped stats)
