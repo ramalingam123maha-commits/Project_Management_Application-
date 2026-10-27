@@ -96,9 +96,9 @@
 - [x] Backend & frontend Dockerfiles, `nginx.conf`
 - [x] `docker-compose.yml`, `.env.example`, `.gitignore`
 - [x] `Readme.md` – setup, env vars, run, test, API, roles
-- [ ] Final end-to-end verification
+- [x] Final end-to-end verification (API on H2; MySQL, Docker and browser not available)
 
 ### Ongoing (every step)
-- [ ] Update `Worklog.md` for every item created
-- [ ] Update `decision.md` for every decision taken
-- [ ] Tick items in this checklist
+- [x] Update `Worklog.md` for every item created
+- [x] Update `decision.md` for every decision taken
+- [x] Tick items in this checklist
