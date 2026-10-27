@@ -94,7 +94,7 @@
 
 ### Phase 9 – DevOps & Docs
 - [x] Backend & frontend Dockerfiles, `nginx.conf`
-- [ ] `docker-compose.yml`, `.env.example`, `.gitignore`
+- [x] `docker-compose.yml`, `.env.example`, `.gitignore`
 - [ ] `Readme.md` – setup, env vars, run, test, API, roles
 - [ ] Final end-to-end verification
 
