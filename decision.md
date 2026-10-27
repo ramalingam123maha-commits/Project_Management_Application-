@@ -19,3 +19,4 @@ Format: **ID – Title** · Status · Decision · Reason · Alternatives conside
 | D-012 | Testing | Accepted | Backend: JUnit 5, Mockito, MockMvc with H2 test profile. Frontend: Vitest + React Testing Library | Fast, standard tooling; covers permission matrix and forms | Testcontainers (optional later) |
 | D-013 | Local environment | Accepted | `docker-compose.yml` for MySQL + backend + frontend; `.env.example` with no real secrets | One-command setup; no secrets in git | Manual install only |
 | D-014 | Process | Accepted | Every created item is logged in `Worklog.md`; every decision in `decision.md` | Requested by project owner for traceability | — |
+| D-015 | Scaffold first | Accepted | Create all folders and empty files before writing any content | Requested by user; structure reviewable up-front | Build files incrementally |
