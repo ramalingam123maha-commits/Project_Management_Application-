@@ -62,8 +62,8 @@
 - [x] `AuthService` / `AuthController` (register, login, me)
 - [x] `UserService` / `UserController` (admin role management)
 - [x] `ProjectService` / `ProjectController` (CRUD + members)
-- [ ] `TaskService` / `TaskController` (CRUD, assign, status)
-- [ ] `CommentService` (task comments)
+- [x] `TaskService` / `TaskController` (CRUD, assign, status)
+- [x] `CommentService` (task comments)
 - [ ] `DashboardService` / `DashboardController` (role-scoped stats)
 
 ### Phase 5 – Backend Tests
