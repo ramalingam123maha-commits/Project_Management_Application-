@@ -58,7 +58,7 @@
 
 ### Phase 4 – Backend Features
 - [x] DTOs with Bean Validation + `DtoMapper`
-- [ ] Exceptions + `GlobalExceptionHandler` + `ApiError`
+- [x] Exceptions + `GlobalExceptionHandler` + `ApiError`
 - [x] `AuthService` / `AuthController` (register, login, me)
 - [x] `UserService` / `UserController` (admin role management)
 - [x] `ProjectService` / `ProjectController` (CRUD + members)
@@ -67,10 +67,10 @@
 - [x] `DashboardService` / `DashboardController` (role-scoped stats)
 
 ### Phase 5 – Backend Tests
-- [ ] `JwtServiceTest`
-- [ ] Service unit tests (Auth, Project, Task)
-- [ ] Controller integration tests (auth, validation, permission matrix)
-- [ ] All backend tests passing (`mvn test`)
+- [x] `JwtServiceTest`
+- [x] Service unit tests (Auth, Project, Task)
+- [x] Controller integration tests (auth, validation, permission matrix)
+- [x] All backend tests passing (`mvn test`)
 
 ### Phase 6 – Frontend Foundation
 - [ ] `package.json`, `tsconfig.json`, `vite.config.ts`, Tailwind/PostCSS, `index.html`
