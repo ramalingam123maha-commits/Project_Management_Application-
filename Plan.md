@@ -46,7 +46,7 @@
 ### Phase 2 – Backend Foundation
 - [x] `pom.xml` dependencies
 - [x] `application.yml` (env-driven config)
-- [ ] `V1__init.sql` Flyway schema
+- [x] `V1__init.sql` Flyway schema
 - [ ] Entities & enums (`domain/`)
 - [ ] Repositories (`repository/`)
 
