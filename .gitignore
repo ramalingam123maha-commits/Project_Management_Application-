@@ -1,0 +1,30 @@
+# Build outputs
+target/
+backend/target/
+dist/
+frontend/dist/
+build/
+.gradle/
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Logs & temp
+*.log
+*.tmp
+/tmp/
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment overrides (never commit real secrets)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
