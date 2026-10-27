@@ -44,8 +44,8 @@
 - [x] Create root files (`docker-compose.yml`, `.env.example`, `.gitignore`)
 
 ### Phase 2 – Backend Foundation
-- [ ] `pom.xml` dependencies
-- [ ] `application.yml` (env-driven config)
+- [x] `pom.xml` dependencies
+- [x] `application.yml` (env-driven config)
 - [ ] `V1__init.sql` Flyway schema
 - [ ] Entities & enums (`domain/`)
 - [ ] Repositories (`repository/`)
