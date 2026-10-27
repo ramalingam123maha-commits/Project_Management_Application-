@@ -59,7 +59,7 @@
 ### Phase 4 – Backend Features
 - [x] DTOs with Bean Validation + `DtoMapper`
 - [ ] Exceptions + `GlobalExceptionHandler` + `ApiError`
-- [ ] `AuthService` / `AuthController` (register, login, me)
+- [x] `AuthService` / `AuthController` (register, login, me)
 - [ ] `UserService` / `UserController` (admin role management)
 - [ ] `ProjectService` / `ProjectController` (CRUD + members)
 - [ ] `TaskService` / `TaskController` (CRUD, assign, status)
