@@ -64,7 +64,7 @@
 - [x] `ProjectService` / `ProjectController` (CRUD + members)
 - [x] `TaskService` / `TaskController` (CRUD, assign, status)
 - [x] `CommentService` (task comments)
-- [ ] `DashboardService` / `DashboardController` (role-scoped stats)
+- [x] `DashboardService` / `DashboardController` (role-scoped stats)
 
 ### Phase 5 – Backend Tests
 - [ ] `JwtServiceTest`

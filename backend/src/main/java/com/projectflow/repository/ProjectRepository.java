@@ -34,6 +34,8 @@ public interface ProjectRepository extends JpaRepository<Project, Long> {
 
     long countByOwnerId(Long ownerId);
 
+    long countByOwnerIdAndStatus(Long ownerId, ProjectStatus status);
+
     @Query("SELECT COUNT(DISTINCT p) FROM Project p LEFT JOIN ProjectMember pm ON pm.project = p WHERE (p.owner.id = :userId OR pm.user.id = :userId) AND p.status = :status")
     long countAccessibleByUserAndStatus(@Param("userId") Long userId, @Param("status") ProjectStatus status);
 

@@ -93,4 +93,23 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
     @Modifying(clearAutomatically = true)
     @Query("UPDATE Task t SET t.assignee = null WHERE t.project.id = :projectId AND t.assignee.id = :userId")
     int unassignUserFromProject(@Param("projectId") Long projectId, @Param("userId") Long userId);
+
+    long countByProjectOwnerId(Long ownerId);
+
+    long countByProjectOwnerIdAndStatus(Long ownerId, TaskStatus status);
+
+    @Query("SELECT COUNT(t) FROM Task t WHERE t.project.owner.id = :ownerId AND t.dueDate < :today AND t.status <> :doneStatus")
+    long countOverdueByProjectOwnerId(@Param("ownerId") Long ownerId,
+                                      @Param("today") LocalDate today,
+                                      @Param("doneStatus") TaskStatus doneStatus);
+
+    @Query("SELECT t FROM Task t " +
+           "JOIN FETCH t.project p " +
+           "LEFT JOIN FETCH t.assignee a " +
+           "WHERE p.owner.id = :ownerId AND t.dueDate BETWEEN :startDate AND :endDate AND t.status <> :doneStatus " +
+           "ORDER BY t.dueDate ASC")
+    List<Task> findUpcomingDeadlinesByProjectOwnerId(@Param("ownerId") Long ownerId,
+                                                     @Param("startDate") LocalDate startDate,
+                                                     @Param("endDate") LocalDate endDate,
+                                                     @Param("doneStatus") TaskStatus doneStatus);
 }
