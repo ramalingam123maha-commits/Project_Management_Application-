@@ -85,7 +85,7 @@
 - [x] Login & Register pages
 - [x] Dashboard page + widgets
 - [x] Projects list / detail + members management
-- [ ] Task board (Kanban), task form, task detail, comments
+- [x] Task board (Kanban), task form, task detail, comments
 - [ ] My Tasks page, Admin Users page, 404 page
 
 ### Phase 8 – Frontend Tests

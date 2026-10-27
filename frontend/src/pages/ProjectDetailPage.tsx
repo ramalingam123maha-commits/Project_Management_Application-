@@ -11,6 +11,7 @@ import ErrorAlert from '../components/common/ErrorAlert';
 import ProjectForm from '../components/projects/ProjectForm';
 import MemberList from '../components/projects/MemberList';
 import AddMemberForm from '../components/projects/AddMemberForm';
+import ProjectTasks from '../components/tasks/ProjectTasks';
 import { formatDate, projectStatusLabel } from '../utils/labels';
 import { parseError, type ParsedError } from '../utils/errors';
 import type { ProjectValues } from '../validation/schemas';
@@ -98,6 +99,8 @@ export default function ProjectDetailPage() {
           </div>
         )}
       </section>
+
+      <ProjectTasks project={p} members={members.data ?? []} />
 
       {editing && (
         <Modal title="Edit project" onClose={() => setEditing(false)}>
