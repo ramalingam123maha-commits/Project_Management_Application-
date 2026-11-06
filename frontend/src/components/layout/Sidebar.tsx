@@ -11,6 +11,7 @@ export default function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
       <NavLink to="/" end className={link}>Dashboard</NavLink>
       <NavLink to="/projects" className={link}>Projects</NavLink>
       <NavLink to="/my-tasks" className={link}>My Tasks</NavLink>
+      <NavLink to="/chat" className={link}>Chat Assistant</NavLink>
       {user?.role === 'ADMIN' && <NavLink to="/admin/users" className={link}>Users</NavLink>}
     </nav>
   );
