@@ -10,6 +10,7 @@ import ProjectDetailPage from './pages/ProjectDetailPage';
 import TaskDetailPage from './pages/TaskDetailPage';
 import MyTasksPage from './pages/MyTasksPage';
 import AdminUsersPage from './pages/AdminUsersPage';
+import { ChatPage } from './pages/ChatPage';
 import NotFoundPage from './pages/NotFoundPage';
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="projects/:id" element={<ProjectDetailPage />} />
           <Route path="tasks/:id" element={<TaskDetailPage />} />
           <Route path="my-tasks" element={<MyTasksPage />} />
+          <Route path="chat" element={<ChatPage />} />
           <Route
             path="admin/users"
             element={
