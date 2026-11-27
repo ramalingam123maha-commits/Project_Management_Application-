@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.app {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  align-self: flex-start;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.task-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.task-form input:focus {
+  border-color: #3b82f6;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  background: #3b82f6;
+  color: #fff;
+  transition: background 0.15s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.task-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background: #f8fafc;
+  gap: 0.5rem;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.task-item-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.task-item-left input[type="checkbox"] {
+  cursor: pointer;
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
+}
+
+.task-text {
+  word-break: break-word;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.task-actions button {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+.task-actions button:hover {
+  background: #cbd5e1;
+}
+
+.task-actions .btn-delete {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.task-actions .btn-delete:hover {
+  background: #fecaca;
+}
+
+.empty-state {
+  text-align: center;
+  color: #94a3b8;
+  padding: 2rem 0;
+}
+
+/* Edit Dialog */
+.edit-dialog {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.edit-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.edit-dialog h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.edit-dialog input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.dialog-actions #cancel-edit {
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+.dialog-actions #cancel-edit:hover {
+  background: #cbd5e1;
+}
